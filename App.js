@@ -10,7 +10,7 @@ export default function App() {
     <View style={styles.header}>
       
       
-    <Text style={styles.boldtext}>              Limkokwing Student Portal</Text>
+    <Text style={styles.boldtext}>Limkokwing Student Portal</Text>
           
        
          <Image style={styles.pic}
@@ -30,10 +30,10 @@ export default function App() {
           <View style={styles.fleg1}>
               
             <Text>MODULES-----------------------------------------------CREDITS</Text>
-            <Text>Business Communication---------------------------------A*</Text>
+            <Text>Business Communication-----------------------------A*</Text>
             <Text>Computer Skills--------------------------------------------B*</Text>
-            <Text>Creative Studies--------------------------------------------B-</Text>
-            <Text>Algebra-----------------------------------------------------A</Text>
+            <Text>Creative Studies-------------------------------------------B-</Text>
+            <Text>Algebra--------------------------------------------------------A</Text>
             <Text>Programming and Logic Design---------------------------B</Text>
             </View>
             
@@ -45,9 +45,9 @@ export default function App() {
             <View style={styles.fleg2}>
             <Text>MODULES-----------------------------------------------CREDITS</Text>
             <Text>Calculus1---------------------------------------------------A*</Text>
-            <Text>Intro to Database------------------------------------------B*</Text>
-            <Text>Principle of Software Engineering-------------------------B-</Text>
-            <Text>Intro to Data Communication-----------------------------A*</Text>
+            <Text>Intro to Database----------------------------------------B*</Text>
+            <Text>Principle of Software Engineering---------------B-</Text>
+            <Text>Intro to Data Communication----------------------A*</Text>
             <Text>Web Design------------------------------------------------A*</Text>
             </View>
           </View>
@@ -59,9 +59,9 @@ export default function App() {
             <Text>MODULES-----------------------------------------------CREDITS</Text>
             <Text>C++Programming 1---------------------------------------A</Text>
             <Text>Internet Technology---------------------------------------A</Text>
-            <Text>Data Communication and Network-----------------------A*</Text>
-            <Text>Multimedia Technology-----------------------------------A</Text>
-            <Text>Principle Of Web Design----------------------------------A*</Text>
+            <Text>Data Communication and Network-----------------A*</Text>
+            <Text>Multimedia Technology---------------------------------A</Text>
+            <Text>Principle Of Web Design--------------------------------A*</Text>
             
             </View>
           
@@ -108,8 +108,8 @@ boldtext:{
   backgroundColor:'white',
   justifyContent:'center',
   alignItems:'center',
-  height:20,
-  width:300,
+  fontSize:15,
+  marginRight:10,
 
 
 },
